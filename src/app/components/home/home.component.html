@@ -1,0 +1,41 @@
+<h2 id='anuncio' class="text-danger">{{ anuncio }}</h2><br>
+
+<div class="row">
+  <div class="col">
+    <app-card-produto
+  [foto] = "foto"
+  [nomeProduto] = "nomeProduto"
+  [promocao] = "promocao"
+  [idProduto] = "idProduto"
+  [dataValidade] = "dataValidade"
+  [precoProduto] = "precoProduto"
+
+  ></app-card-produto>
+  </div>
+  <div class="col">
+      <app-card-produto
+    foto = "https://www.mapp.com.br/wp-content/uploads/game.jpg"
+    nomeProduto = "Curso de Games"
+    [promocao] = "false"
+    [idProduto] = "03"
+    dataValidade = "2022-03-27"
+    [precoProduto] = "3500.00"
+
+  ></app-card-produto>
+</div>
+  <div class="col">
+    <app-card-produto
+  foto = "https://i.em.com.br/h2jFaG4kflC0h-ZIHKEpa2ntDlw=/790x/smart/imgsapp.em.com.br/app/noticia_127983242361/2021/07/09/1284909/20210708211748245158o.jpg"
+  nomeProduto = "Ferias com Felipe Neto"
+  [promocao] = "true"
+  [idProduto] = "04"
+  dataValidade = "2021-06-07"
+  [precoProduto] = "15999.00"
+
+></app-card-produto>
+
+  </div>
+</div>
+
+
+<br>
